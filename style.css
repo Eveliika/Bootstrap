@@ -1,11 +1,54 @@
-.navbar-toggler {
-    border-radius: 20px;
+body {
+    background-image: url("../images/helsinki.jpg");
+    background-repeat: no-repeat;
 }
 
+
+/*Navbarin tyylimäärittelyt*/
 .navbar {
     background-color: #C9AD7F;
 }
 
+.navbar-toggler {
+    border-radius: 20px;
+}
+
+
+.text-content {
+    padding: 30px 15px 30px 35px;
+    color: white;
+    
+}
+
+p {
+    padding: 10px;
+    background-color: #c9ad7f96;
+}
+
+
+/*Accordionin tyylimäärittelyt*/
 .accordion-button {
     background-color: #C9AD7F;
+    height: 70px;
+}
+
+#accordionExample {
+    padding: 30px 35px 30px 15px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #DECFAC;
+    color: black;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-item:nth-child(1), .accordion-item:nth-child(2) {
+    border-bottom: 1px solid white;
 }
