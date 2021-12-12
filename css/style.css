@@ -1,8 +1,8 @@
 body {
     background-image: url("../images/helsinki.jpg");
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
-
 
 /*Navbarin tyylimäärittelyt*/
 .navbar {
@@ -17,7 +17,6 @@ body {
 .text-content {
     padding: 30px 15px 30px 35px;
     color: white;
-    
 }
 
 p {
@@ -47,6 +46,7 @@ p {
 
 .accordion-item {
     border: none;
+    background-color: rgb(255, 249, 241);
 }
 
 .accordion-item:nth-child(1), .accordion-item:nth-child(2) {
