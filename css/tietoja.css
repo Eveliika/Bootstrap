@@ -23,18 +23,7 @@ body {
     border-radius: 20px;
 }
 
-
-
 /*pääosa*/
-h1 {
-    font-size: 12em;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.705);
-    /*#97743f9a*/
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
 .text-content {
     padding: 30px 15px 30px 35px;
     color: white;
@@ -52,18 +41,32 @@ p {
     background-color: #c9ad7fb6;
 }
 
-.btn {
-    width: 200px;
-    height: 45px;
+/*Accordion*/
+.accordion-button {
     background-color: #c9ad7f;
-    border: 2px solid #ffff;
-    margin: 5px;
-    font-weight: bold;
+    height: 70px;
 }
 
-.btn:hover {
-    background-color: #c9ad7fab;
-    border: 2px solid #ffff;
+#accordionExample {
+    padding: 30px 35px 30px 15px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #decfac;
+    color: black;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item {
+    border: none;
+    background-color: rgb(255, 249, 241);
+}
+
+.accordion-item:nth-child(1), .accordion-item:nth-child(2) {
+    border-bottom: 1px solid white;
 }
 
 footer {
