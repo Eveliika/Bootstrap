@@ -1,22 +1,38 @@
 body, html {
     height: 100%;
     margin: 0;
-    padding: 0;
 }
 
-body {
+#bg-image {
+    background-image: url("../images/helsinki.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+}
+
+/*body {
     background-image: url("../images/helsinki.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
     min-height: 100vh;
+}*/
+
+h1 {
+    font-size: 12em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.705);
+    /*#97743f9a*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*Navbar*/
 .navbar {
     background-color: #c9ad7f;
     border-radius: 2px;
+
 }
 
 .navbar-toggler {
@@ -36,19 +52,33 @@ body {
     padding-bottom: 100px;
 }
 
-p {
+article {
     padding: 10px;
     background-color: #c9ad7fb6;
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 6px 4px 22px -3px #a18b66b6;
+}
+
+a {
+    text-decoration: none;
+    color: #6b4c1a;
+}
+
+a:hover {
+    color: #9c7536;
 }
 
 /*Accordion*/
 .accordion-button {
     background-color: #c9ad7f;
     height: 70px;
+    box-shadow: 6px 4px 22px -3px #a18b66b6;
 }
 
 #accordionExample {
     padding: 30px 35px 30px 15px;
+    margin-top: 20px;
 }
 
 .accordion-button:not(.collapsed) {
