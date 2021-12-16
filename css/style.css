@@ -4,14 +4,10 @@ body, html {
     padding: 0;
 }
 
-body {
-    background-image: url("../images/helsinki.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    min-height: 100vh;
-}
+/*body {
+    overflow-x: hidden;
+}*/
+
 
 /*Navbar*/
 .navbar {
@@ -23,17 +19,30 @@ body {
     border-radius: 20px;
 }
 
+/*Taustakuva*/
+#bg-image {
+    background-image: url("../images/helsinki.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+}
 
 
-/*pääosa*/
+/*Etusivun pääsisältö*/
 h1 {
     font-size: 12em;
     text-align: center;
     color: rgba(255, 255, 255, 0.705);
-    /*#97743f9a*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.container {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
 
 .text-content {
     padding: 30px 15px 30px 35px;
@@ -43,13 +52,10 @@ h1 {
     align-items: center;
 }
 
-.container {
-    padding-bottom: 100px;
-}
-
 p {
     padding: 10px;
     background-color: #c9ad7fb6;
+    max-width: 1000px;
 }
 
 .btn {
@@ -66,6 +72,7 @@ p {
     border: 2px solid #ffff;
 }
 
+/*Alatunniste*/
 footer {
     background-color: #c9ad7fd2;
     display: flex;
