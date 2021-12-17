@@ -96,6 +96,18 @@ a:hover {
     border-bottom: 1px solid white;
 }
 
+.accordion table {
+    color: #b39970;
+}
+
+table th {
+    padding-right: 10px;
+}
+
+.accordion li {
+    color: #b39970;
+}
+
 /*Alatunniste*/
 footer {
     background-color: #c9ad7fd2;
@@ -147,7 +159,3 @@ footer {
         font-size: 4em;
     }
 }
-
-/*
--accordion listat ja tekstien väri
-*/
