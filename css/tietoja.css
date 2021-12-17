@@ -18,10 +18,10 @@ body {
 }
 
 h1 {
+    padding-top: 5%;
     font-size: 12em;
     text-align: center;
     color: rgba(255, 255, 255, 0.705);
-    /*#97743f9a*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -37,12 +37,13 @@ h1 {
 }
 
 /*Tietoja-sivun pääsisältö*/
+
 .container {
-    padding-bottom: 60px;
+    margin-bottom: 45px;
 }
 
 .text-content {
-    padding: 30px 15px 30px 35px;
+    padding: 30px 15px 30px 0px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -50,9 +51,8 @@ h1 {
 }
 
 article {
-    padding: 10px;
+    padding: 20px;
     background-color: #c9ad7fb6;
-    margin-top: 20px;
     border-radius: 3px;
     box-shadow: 6px 4px 22px -3px #a18b66b6;
 }
@@ -75,8 +75,7 @@ a:hover {
 }
 
 #accordionExample {
-    padding: 30px 35px 30px 15px;
-    margin-top: 20px;
+    padding: 30px 0px 30px 15px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -108,3 +107,47 @@ footer {
     width: 100%;
     padding: 3px;
 }
+
+/*Responsiivisuus*/
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 10em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .text-content {
+        padding: 30px 0px 20px 0px;
+    }
+
+    #accordionExample {
+        padding: 30px 0px 20px 0px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    h1 {
+        font-size: 7em;
+    }
+
+    #bg-image {
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    h1 {
+        font-size: 6em;
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+/*
+-accordion listat ja tekstien väri
+*/
